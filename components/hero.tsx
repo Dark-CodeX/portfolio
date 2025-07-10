@@ -59,7 +59,7 @@ export function Hero() {
         <div className="mb-8">
           <div className="w-40 h-40 mx-auto mb-6 rounded-full border-4 border-green-400/50 overflow-hidden bg-gray-900/50 flex items-center justify-center">
             <img
-              src="/full_image2.jpeg?height=160&width=160"
+              src="full_image2.jpeg?height=160&width=160"
               alt="Tushar Chaurasia - Software Engineer"
               className="w-full h-full object-cover"
             />

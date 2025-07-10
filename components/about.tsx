@@ -97,7 +97,7 @@ export function About() {
           <div className="flex justify-center">
             <div className="w-64 h-64 rounded-lg border-2 border-green-400/50 overflow-hidden bg-gray-900/50 flex items-center justify-center">
               <img
-                src="/full_image.jpeg?height=256&width=256"
+                src="full_image.jpeg?height=256&width=256"
                 alt="Tushar Chaurasia - Professional Photo"
                 className="w-full h-full object-cover"
               />
