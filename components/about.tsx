@@ -59,7 +59,7 @@ export function About() {
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-400 font-mono">{">"} cat about_me.md</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-green-400 font-mono">{"$"} cat about_me.md</h2>
           <div className="bg-gray-900 border border-green-400/30 rounded-lg p-6 text-left max-w-4xl mx-auto">
             <div className="font-mono text-green-300 space-y-2">
               <div className="text-green-400"># About Tushar Chaurasia</div>
