@@ -67,15 +67,16 @@ export function About() {
               <div>## Summary</div>
               <div className="text-green-200">
                 Passionate software engineer with 7+ years of programming experience since age 13. Currently pursuing
-                B.Tech in Computer Science with AI/ML specialization (SGPA: 8.42). Active open-source contributor with
-                expertise in quantum computing, systems programming, and advanced C++.
+                B.Tech in Computer Science with AI/ML specialization (SGPA: 8.739). Active open-source contributor with
+                expertise in web technologies, systems programming, and advanced C++.
               </div>
               <div></div>
               <div>## Current Focus</div>
               <div className="text-green-200">
                 - Building QubitVerse: Quantum Computer Circuit Simulator
-                <br />- Developing Horizon: Memory-safe programming language
-                <br />- Contributing to open-source projects and helping developers globally
+                <br />- QuantZ: A platform for designing, testing, and backtesting trading strategies
+                <br />- Horizon: Memory-safe programming language
+                <br />- MedCheck: AI-powered drug authentication system
               </div>
             </div>
           </div>
@@ -86,12 +87,12 @@ export function About() {
             <h3 className="text-2xl font-semibold mb-4 text-green-400 font-mono">## Professional Profile</h3>
             <p className="text-green-200 mb-4">
               Started as a curious student who loved building things with code at age 13. Over the years, I've developed
-              expertise in quantum computing, systems programming, and advanced C++ development.
+              expertise in web technologies, quantum computing, systems programming, and advanced C++ development.
             </p>
             <p className="text-green-200 mb-4">
               I specialize in creating innovative solutions from quantum simulators to programming languages. When I'm
               not coding, you can find me contributing to open source projects, helping developers on Stack Overflow, or
-              exploring new frontiers in quantum computing.
+              exploring new frontiers in tech industry.
             </p>
           </div>
           <div className="flex justify-center">

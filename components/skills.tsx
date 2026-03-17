@@ -6,43 +6,44 @@ import { Code, Database, Wrench, Brain, Award, Users } from "lucide-react"
 export function Skills() {
   const skillCategories = [
     {
-      title: "Systems Programming",
+      title: "Core Systems & Languages",
       icon: Code,
       skills: [
         { name: "C++", level: 95, years: "10+" },
-        { name: "C", level: 90, years: "8+" },
-        { name: "Linux/Unix", level: 85, years: "6+" },
+        { name: "C", level: 95, years: "8+" },
+        { name: "Python", level: 85, years: "3+" },
         { name: "Memory Management", level: 90, years: "5+" },
-      ],
-    },
-    {
-      title: "Web Technologies",
-      icon: Wrench,
-      skills: [
-        { name: "JavaScript/Node.js", level: 85, years: "4+" },
-        { name: "React/ReactJS", level: 80, years: "3+" },
-        { name: "Python", level: 85, years: "5+" },
-        { name: "Git/GitHub", level: 95, years: "8+" },
-      ],
-    },
-    {
-      title: "Specialized Domains",
-      icon: Brain,
-      skills: [
-        { name: "Quantum Computing", level: 80, years: "2+" },
-        { name: "Machine Learning", level: 75, years: "3+" },
+        { name: "Algorithms", level: 90, years: "8+" },
         { name: "Compiler Design", level: 85, years: "2+" },
-        { name: "Algorithm Design", level: 90, years: "8+" },
       ],
     },
     {
-      title: "Tools & Frameworks",
+      title: "Platforms & Tools",
       icon: Database,
       skills: [
+        { name: "Linux/Unix", level: 85, years: "6+" },
+        { name: "Git/GitHub", level: 95, years: "4+" },
         { name: "Visual Studio/VS Code", level: 90, years: "6+" },
-        { name: "MySQL/RDBMS", level: 75, years: "3+" },
-        { name: "Pandas/NumPy", level: 80, years: "3+" },
         { name: "Jupyter Notebook", level: 85, years: "3+" },
+        { name: "MySQL/RDBMS", level: 75, years: "3+" },
+      ],
+    },
+    {
+      title: "AI & Specialized Domains",
+      icon: Brain,
+      skills: [
+        { name: "Machine Learning", level: 75, years: "3+" },
+        { name: "Pandas/NumPy", level: 80, years: "3+" },
+        { name: "Quantum Computing", level: 80, years: "2+" },
+      ],
+    },
+    {
+      title: "Web & Frontend Technologies",
+      icon: Wrench,
+      skills: [
+        { name: "JavaScript/Node.js", level: 85, years: "2+" },
+        { name: "React/ReactJS", level: 75, years: "1+" },
+        { name: "HTML/CSS", level: 70, years: "3+" },
       ],
     },
   ]
@@ -55,7 +56,7 @@ export function Skills() {
     },
     {
       icon: Users,
-      title: "58,000+ Developers Helped",
+      title: "70,000+ Developers Helped",
       description: "Through Stack Overflow answers and open-source projects",
     },
     {

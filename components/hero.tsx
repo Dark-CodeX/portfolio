@@ -22,7 +22,7 @@ export function Hero() {
 
   const stats = [
     { label: "Stack Overflow Rep", value: "3000+", icon: Code },
-    { label: "Developers Helped", value: "60K+", icon: ExternalLink },
+    { label: "Developers Helped", value: "70K+", icon: ExternalLink },
     { label: "Years Coding", value: "7+", icon: Cpu },
     { label: "Open Source Projects", value: "15+", icon: Github },
   ]
@@ -49,9 +49,9 @@ export function Hero() {
               <span className="animate-pulse">|</span>
             </div>
             <div>$ ls achievements/</div>
-            <div className="text-green-300">quantum-simulator/ programming-language/ build-system/ openutils-lib/</div>
+            <div className="text-green-300">fintech/ quantum-simulator/ programming-language/ build-system/ openutils-lib/</div>
             <div>$ echo $SPECIALIZATION</div>
-            <div className="text-green-300">AI/ML & Data Science | Quantum Computing | Systems Programming</div>
+            <div className="text-green-300">AI/ML & Data Science | Systems Programming</div>
           </div>
         </div>
 
@@ -68,14 +68,13 @@ export function Hero() {
           <div className="text-xl sm:text-2xl text-green-300 mb-8 font-mono">
             {"<"}
             <span className="text-cyan-400">SoftwareEngineer</span>
-            {" & "}
-            <span className="text-purple-400">QuantumComputing</span>
             {"/>"}
           </div>
           <p className="text-lg text-green-200 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Building the future with quantum circuits, systems programming, and AI. Creator of QubitVerse quantum
-            simulator, Horizon programming language, and multiple open-source tools. Currently pursuing B.Tech in CS
-            with AI/ML specialization.
+            Systems-oriented Computer Science undergraduate specializing in C++ and high-performance software, with hands-on
+            experience building compilers, memory-safe languages, build systems, and a quantum circuit simulator. Strong foundation in
+            low-level memory management, algorithms, and mathematical modeling. Active open-source contributor and
+            stackoverflow.com contributor with 3000+ reputation, with answers impacting 70K+ developers globally
           </p>
         </div>
 

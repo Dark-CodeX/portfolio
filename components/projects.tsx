@@ -1,8 +1,10 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Github, Terminal, Cpu, Code, Zap } from "lucide-react"
+import { Github, Terminal, Cpu, Code, Zap, icons, DollarSign } from "lucide-react"
 import Link from "next/link"
+import { title } from "process"
+import { sub } from "date-fns"
 
 export function Projects() {
   const projects = [
@@ -20,6 +22,23 @@ export function Projects() {
         "Educational quantum mechanics tool",
       ],
       githubUrl: "https://github.com/Dark-CodeX/QubitVerse",
+      status: "Stable",
+    },
+    {
+      title: "QuantZ",
+      subtitle: "A trading strategy backtesting application",
+      description:
+        "QuantZ is a powerful trading strategy backtesting application built with C++(SIMD) and React. It allows users to test and optimize their trading strategies using historical market data, providing detailed performance metrics and visualizations.",
+      icon: DollarSign,
+      technologies: ["C++", "Node.js", "Python", "SIMD", "ReactJS", "Financial Analysis", "Backtesting"],
+      features: [
+        "High-performance backtesting engine",
+        "Support for multiple asset classes",
+        "Comprehensive performance metrics",
+        "Interactive visualizations",
+      ],
+      githubUrl: "https://github.com/Dark-CodeX/QuantZ",
+      tryItUrl: "https://quantz-dxgw.onrender.com",
       status: "Stable",
     },
     {
@@ -141,6 +160,19 @@ export function Projects() {
                       Source
                     </Link>
                   </Button>
+                  {project.tryItUrl && (
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-mono bg-transparent"
+                      asChild
+                    >
+                      <Link href={project.tryItUrl} target="_blank" rel="noopener noreferrer">
+                        <icons.Play className="h-4 w-4 mr-2" />
+                        Try It
+                      </Link>
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>

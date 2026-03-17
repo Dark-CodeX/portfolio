@@ -8,17 +8,49 @@ export function Experience() {
       title: "DSA/CP Coordinator",
       company: "WEBYTES",
       location: "Sonepat, Haryana",
-      period: "Apr 2024 – Present",
+      period: "Apr 2024 – Aug 2025",
       type: "Leadership Role",
       description:
-        "Leading competitive programming initiatives and organizing technical workshops for engineering students.",
+        "Organized coding workshops and promoted data structures and competitive programming culture within the university.",
       achievements: [
-        "Organized multiple on-campus workshops to encourage coding culture",
-        "Delivered lectures on data structures (strings, linked lists, vectors) to 100+ students",
-        "Mentored Second and Third-year Computer Science Engineering students",
-        "Developed curriculum for DSA workshops and competitive programming training",
+        "Conducted multiple DSA workshops for 100+ students",
+        "Delivered lectures on strings, linked lists, vectors, and core data structures",
+        "Mentored second- and third-year Computer Science students",
+        "Helped build an active competitive programming environment on campus",
       ],
-      skills: ["Leadership", "Public Speaking", "Teaching", "Data Structures", "Algorithms", "Team Management"],
+      skills: ["Leadership", "Teaching", "Public Speaking", "Data Structures", "Algorithms"],
+    },
+    {
+      title: "Event Coordinator",
+      company: "VERGE",
+      location: "Sonepat, Delhi-NCR",
+      period: "Jan 2025 – Feb 2025",
+      type: "Organizing Role",
+      description:
+        "Managed logistics and execution of technical events, coordinating teams, speakers, and event schedules.",
+      achievements: [
+        "Planned and executed technical events with multiple stakeholders",
+        "Coordinated with speakers, judges, and sponsors",
+        "Managed volunteer teams and event logistics",
+        "Handled real-time problem solving during events",
+      ],
+      skills: ["Event Management", "Coordination", "Leadership", "Communication", "Operations"],
+    },
+    {
+      title: "Project Admin",
+      company: "Open Source Connect",
+      location: "Remote",
+      period: "Aug 2025 – Sept 2025",
+      type: "Open Source Leadership",
+      description:
+        "Managed open-source repositories and contributor workflows for community-driven projects.",
+      achievements: [
+        "Managed repositories, issues, and contributor workflows",
+        "Reviewed pull requests and enforced contribution guidelines",
+        "Coordinated communication between maintainers and contributors",
+        "Tracked progress and ensured consistent project delivery",
+      ],
+      skills: ["Open Source", "Git", "Project Management", "Code Review", "Community Leadership"],
     },
   ]
 
@@ -27,7 +59,7 @@ export function Experience() {
     specialization: "Artificial Intelligence and Data Science",
     university: "SRM University Delhi-NCR, Sonepat",
     period: "June 2023 – June 2027",
-    sgpa: "8.42",
+    sgpa: "8.739",
     status: "Pursuing",
   }
 
@@ -41,14 +73,44 @@ export function Experience() {
     {
       title: "Bi-Wizard Coding Contest 2022 Winner",
       issuer: "GeeksforGeeks",
-      description: "Appreciation and letter of recommendation from CEO Sandeep Jain",
+      description: "Received appreciation and letter of recommendation from CEO Sandeep Jain",
       icon: Award,
+    },
+    {
+      title: "Machine Learning Specialization",
+      issuer: "DeepLearning.AI & Stanford Online",
+      description: "Completed Andrew Ng’s full ML specialization covering regression, classification, and modern ML workflows",
+      icon: BookOpen,
+    },
+    {
+      title: "Supervised Machine Learning: Regression & Classification",
+      issuer: "DeepLearning.AI & Stanford Online",
+      description: "Focused on regression models, classification algorithms, and model evaluation techniques",
+      icon: BookOpen,
+    },
+    {
+      title: "Advanced Learning Algorithms",
+      issuer: "DeepLearning.AI & Stanford Online",
+      description: "Covered neural networks, training pipelines, and practical machine learning techniques",
+      icon: BookOpen,
+    },
+    {
+      title: "Unsupervised Learning, Recommenders & Reinforcement Learning",
+      issuer: "DeepLearning.AI & Stanford Online",
+      description: "Studied clustering, recommender systems, and reinforcement learning foundations",
+      icon: BookOpen,
     },
     {
       title: "Python Programming Certificate",
       issuer: "IBM",
-      description: "Certificate of Participation in Python programming course",
+      description: "Completed Python programming course and received certificate of participation",
       icon: BookOpen,
+    },
+    {
+      title: "Open Source Connect India 2025",
+      issuer: "Open Source Connect",
+      description: "Served as Project Admin for QubitVerse and managed contributor workflows",
+      icon: Award,
     },
   ]
 
